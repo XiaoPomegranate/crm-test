@@ -1,5 +1,4 @@
 import com.itszb.crm.mapper.UsersMapper;
-import com.itszb.crm.utils.UUIDUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
@@ -16,8 +15,6 @@ public class Tester {
     //测试mapper
     @Test
     public void test() {
-        System.out.println(UUIDUtils.getUUID());
-        System.out.println(UUIDUtils.getUUID());
-        System.out.println(UUIDUtils.getUUID());
+        System.out.println("测试git");
     }
 }
