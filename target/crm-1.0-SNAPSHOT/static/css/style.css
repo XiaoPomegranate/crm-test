@@ -1,0 +1,61 @@
+.importExcel {
+    margin-top:30px;
+    height: 50px;
+    width: 100%;
+}
+
+.importExcel input[type=text] {
+    width: 80%;
+    padding: 0 0 0 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #333;
+    line-height: 36px;
+    outline: none;
+    float: left;
+}
+
+.importExcel label {
+    position: relative;
+    left: -1px;
+    border-radius: 0 5px 5px 0;
+    line-height: 36px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #333;
+    background-color: #337ab7;
+    font-size: 16px;
+    color: #fff;
+    float: left;
+    font-family: "微软雅黑";
+}
+
+.importExcel input[type=file] {
+    display:none;
+}
+
+.searchItem {
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 22%;
+    min-width: 260px;
+}
+
+.searchItem div {
+    width: 100px !important;
+    text-align: right;
+}
+
+button.search {
+    margin-top: 10px;
+}
+
+#navigation>ul>li {
+    padding: 0;margin: 0;
+}
+#navigation>ul>li:not(:last-child) {
+    border-bottom: 1px solid #9d9d9d;
+}
+#navigation>ul>li>ul>li>a {
+    padding-left: 30px;
+}
